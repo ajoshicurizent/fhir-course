@@ -1,0 +1,13 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://courses.ajoshi.org/fhir/ValueSet/patient-nationality-valueset",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "PatientNationalityValueSet",
+      "title" : "Nationality (ISO 3166-1 Alpha-3 Subset)",
+      "description" : "ValueSet for the Countries represented using ISO 3166-1 alpha-3 codes.",
+      "systems" : ["urn:iso:std:iso:3166"]
+    }
+  ]
+}

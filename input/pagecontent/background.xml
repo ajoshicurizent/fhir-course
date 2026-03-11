@@ -1,0 +1,11 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <h3>About the IG</h3>
+  <p>
+    Background info about Lean core IG- purpose, description, authors, vision etc. 
+  </p>
+  <h3>Objective</h3>
+	<p>
+	   Lean core IG provides base profiles for data exchange in KSA.
+		<img height="600" src="anImage.png" alt="A sample image"/>
+	</p>
+</div>

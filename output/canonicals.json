@@ -1,0 +1,73 @@
+[
+  {
+    "id" : "FHIRCourseCapabilityStatement",
+    "type" : "CapabilityStatement",
+    "url" : "http://courses.ajoshi.org/fhir/CapabilityStatement/FHIRCourseCapabilityStatement",
+    "version" : "0.1.0",
+    "name" : "FHIRCourseCapabilityStatement"
+  },
+  {
+    "id" : "hl7.fhir.uv.fhir-course",
+    "type" : "ImplementationGuide",
+    "url" : "http://courses.ajoshi.org/fhir/ImplementationGuide/hl7.fhir.uv.fhir-course",
+    "version" : "0.1.0",
+    "name" : "FHIRCourse"
+  },
+  {
+    "id" : "PatientMrnNamingSystem",
+    "type" : "NamingSystem",
+    "url" : "http://courses.ajoshi.org/fhir/NamingSystem/PatientMrnNamingSystem",
+    "version" : "0.1.0",
+    "name" : "PatientMrnNamingSystem"
+  },
+  {
+    "id" : "PractitionerIdentifierNamingSystem",
+    "type" : "NamingSystem",
+    "url" : "http://courses.ajoshi.org/fhir/NamingSystem/PractitionerIdentifierNamingSystem",
+    "version" : "0.1.0",
+    "name" : "PractitionerIdentifierNamingSystem"
+  },
+  {
+    "id" : "MyPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://courses.ajoshi.org/fhir/StructureDefinition/MyPatient",
+    "version" : "0.1.0",
+    "name" : "MyPatient"
+  },
+  {
+    "id" : "fhir-course-patient01",
+    "type" : "StructureDefinition",
+    "url" : "http://courses.ajoshi.org/fhir/StructureDefinition/fhir-course-patient01",
+    "version" : "0.1.0",
+    "name" : "ResourceConceptAssignmentPatientProfile01"
+  },
+  {
+    "id" : "patient-nationality-extension",
+    "type" : "StructureDefinition",
+    "url" : "http://courses.ajoshi.org/fhir/StructureDefinition/patient-nationality-extension",
+    "version" : "0.1.0",
+    "name" : "PatientNationalityExtension"
+  },
+  {
+    "id" : "patient-nationality-valueset",
+    "type" : "ValueSet",
+    "url" : "http://courses.ajoshi.org/fhir/ValueSet/patient-nationality-valueset",
+    "version" : "0.1.0",
+    "name" : "PatientNationalityValueSet"
+  },
+  {
+    "id" : "patient-contact-relationship",
+    "type" : "CodeSystem",
+    "url" : "http://ushosp.org/fhir/CodeSystem/patient-contact-relationship",
+    "version" : "0.1.0",
+    "name" : "PatientContactRelationship"
+  },
+  {
+    "id" : "patient-nationality-codesystem",
+    "type" : "CodeSystem",
+    "url" : "urn:iso:std:iso:3166",
+    "version" : "0.1.0",
+    "name" : "ISO3166Part1Alpha3",
+    "alt-urls" : ["urn:iso:std:iso:3166"]
+  }
+]

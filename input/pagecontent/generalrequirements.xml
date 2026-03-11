@@ -1,0 +1,13 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <h3>General Requirements</h3>
+  <p>
+    This page documents requirements common to all Lean Core actors in this guide. The conformance verbs - SHALL, SHOULD, MAY - used in this guide are defined in FHIR Conformance Rules.
+  </p>
+  <h3>Conforming to US Core</h3>
+	<p>
+		There are two different ways to implement US Core:
+		
+		  a. Profile Only Support: Systems may support only the US Core Profiles to represent clinical information.
+		  b. Profile Support + Interaction Support: Systems may support both the US Core Profile content structure and the RESTful interactions defined for a resource. 
+	</p>
+</div>

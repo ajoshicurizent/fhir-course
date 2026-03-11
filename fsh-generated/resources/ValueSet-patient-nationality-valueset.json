@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "PatientNationalityValueSet",
+  "id": "patient-nationality-valueset",
+  "title": "Nationality (ISO 3166-1 Alpha-3 Subset)",
+  "description": "ValueSet for the Countries represented using ISO 3166-1 alpha-3 codes.",
+  "url": "http://courses.ajoshi.org/fhir/ValueSet/patient-nationality-valueset",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "version": "0.1.0",
+  "copyright": "Used by permission of FHIR course Author.",
+  "experimental": false,
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "support@curizent.com"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "urn:iso:std:iso:3166"
+      }
+    ]
+  }
+}

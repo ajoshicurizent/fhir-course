@@ -1,0 +1,31 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "PatientContactRelationship",
+  "id": "patient-contact-relationship",
+  "title": "Patient Contact Relationship Codes",
+  "description": "Local codes used to describe patient contact relationships for course examples.",
+  "url": "http://ushosp.org/fhir/CodeSystem/patient-contact-relationship",
+  "concept": [
+    {
+      "code": "MTH",
+      "display": "Mother"
+    }
+  ],
+  "version": "0.1.0",
+  "copyright": "Used by permission of FHIR course Author.",
+  "experimental": false,
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "support@curizent.com"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "count": 1
+}

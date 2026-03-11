@@ -1,0 +1,44 @@
+{
+  "resourceType": "CapabilityStatement",
+  "id": "FHIRCourseCapabilityStatement",
+  "url": "http://courses.ajoshi.org/fhir/CapabilityStatement/FHIRCourseCapabilityStatement",
+  "title": "FHIR Course CapabilityStatement",
+  "description": "FHIR server shall behave in accordance of this capability statement.",
+  "format": [
+    "json"
+  ],
+  "rest": [
+    {
+      "resource": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+              "valueCode": "SHALL"
+            }
+          ],
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "identifier",
+              "definition": "http://hl7.org/fhir/SearchParameter/Patient-identifier",
+              "type": "token"
+            }
+          ],
+          "type": "Patient",
+          "profile": "http://courses.ajoshi.org/fhir/StructureDefinition/fhir-course-patient01"
+        }
+      ],
+      "mode": "server"
+    }
+  ],
+  "name": "FHIRCourseCapabilityStatement",
+  "status": "draft",
+  "kind": "requirements",
+  "fhirVersion": "4.0.1",
+  "date": "2025-11-23T12:34:56Z"
+}

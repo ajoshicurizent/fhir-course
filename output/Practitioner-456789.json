@@ -1,0 +1,17 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "456789",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner 456789</b></p><a name=\"456789\"> </a><a name=\"hc456789\"> </a><p><b>identifier</b>: <a href=\"NamingSystem-PractitionerIdentifierNamingSystem.html\" title=\"Namespace definition for practitioner identifier system used in this IG.\">PractitionerIdentifierNamingSystem</a>/3241091</p><p><b>name</b>: Cardio Specialist </p></div>"
+  },
+  "identifier" : [{
+    "system" : "http://ushosp.org/fhir/practitioner-npi",
+    "value" : "3241091"
+  }],
+  "name" : [{
+    "family" : "Specialist",
+    "given" : ["Cardio"],
+    "prefix" : ["Dr."]
+  }]
+}

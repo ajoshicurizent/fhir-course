@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="patient-contact-relationship"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem patient-contact-relationship</b></p><a name="patient-contact-relationship"> </a><a name="hcpatient-contact-relationship"> </a><p>This case-sensitive code system <code>http://ushosp.org/fhir/CodeSystem/patient-contact-relationship</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">MTH<a name="patient-contact-relationship-MTH"> </a></td><td>Mother</td></tr></table></div>
+  </text>
+  <url value="http://ushosp.org/fhir/CodeSystem/patient-contact-relationship"/>
+  <version value="0.1.0"/>
+  <name value="PatientContactRelationship"/>
+  <title value="Patient Contact Relationship Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-10T18:59:27+03:00"/>
+  <publisher value="Aditya Joshi (FHIR Trainer)"/>
+  <contact>
+    <name value="Aditya Joshi (FHIR Trainer)"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cgp"/>
+    </telecom>
+  </contact>
+  <description value="Local codes used to describe patient contact relationships for course examples."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Used by permission of FHIR course Author."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="MTH"/>
+    <display value="Mother"/>
+  </concept>
+</CodeSystem>

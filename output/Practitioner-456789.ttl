@@ -1,0 +1,30 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://courses.ajoshi.org/fhir/Practitioner/456789> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "456789"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner 456789</b></p><a name=\"456789\"> </a><a name=\"hc456789\"> </a><p><b>identifier</b>: <a href=\"NamingSystem-PractitionerIdentifierNamingSystem.html\" title=\"Namespace definition for practitioner identifier system used in this IG.\">PractitionerIdentifierNamingSystem</a>/3241091</p><p><b>name</b>: Cardio Specialist </p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "http://ushosp.org/fhir/practitioner-npi"^^xsd:anyURI ;
+       fhir:l <http://ushosp.org/fhir/practitioner-npi>
+     ] ;
+     fhir:value [ fhir:v "3241091" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Specialist" ] ;
+     fhir:given ( [ fhir:v "Cardio" ] ) ;
+     fhir:prefix ( [ fhir:v "Dr." ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

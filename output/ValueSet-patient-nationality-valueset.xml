@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="patient-nationality-valueset"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet patient-nationality-valueset</b></p><a name="patient-nationality-valueset"> </a><a name="hcpatient-nationality-valueset"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><ul><li>Include all codes defined in <a href="CodeSystem-patient-nationality-codesystem.html"><code>urn:iso:std:iso:3166</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://courses.ajoshi.org/fhir/ValueSet/patient-nationality-valueset"/>
+  <version value="0.1.0"/>
+  <name value="PatientNationalityValueSet"/>
+  <title value="Nationality (ISO 3166-1 Alpha-3 Subset)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-10T18:59:27+03:00"/>
+  <publisher value="Aditya Joshi (FHIR Trainer)"/>
+  <contact>
+    <name value="Aditya Joshi (FHIR Trainer)"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cgp"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet for the Countries represented using ISO 3166-1 alpha-3 codes."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Used by permission of FHIR course Author."/>
+  <compose>
+    <include>
+      <system value="urn:iso:std:iso:3166"/>
+    </include>
+  </compose>
+</ValueSet>

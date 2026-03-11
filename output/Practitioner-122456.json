@@ -1,0 +1,17 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "122456",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner 122456</b></p><a name=\"122456\"> </a><a name=\"hc122456\"> </a><p><b>identifier</b>: <a href=\"NamingSystem-PractitionerIdentifierNamingSystem.html\" title=\"Namespace definition for practitioner identifier system used in this IG.\">PractitionerIdentifierNamingSystem</a>/9087612</p><p><b>name</b>: Big Undertaker </p></div>"
+  },
+  "identifier" : [{
+    "system" : "http://ushosp.org/fhir/practitioner-npi",
+    "value" : "9087612"
+  }],
+  "name" : [{
+    "family" : "Undertaker",
+    "given" : ["Big"],
+    "prefix" : ["Dr."]
+  }]
+}

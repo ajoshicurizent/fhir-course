@@ -1,0 +1,17 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "PatientMrnNamingSystem",
+  "description": "Namespace definition for patient MRN identifier system used in this IG.",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "http://ushosp.org/fhir/pat-identifier/mrn",
+      "preferred": true
+    }
+  ],
+  "name": "PatientMrnNamingSystem",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2026-03-07",
+  "publisher": "FHIR Course"
+}

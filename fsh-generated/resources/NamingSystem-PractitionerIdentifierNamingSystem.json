@@ -1,0 +1,17 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "PractitionerIdentifierNamingSystem",
+  "description": "Namespace definition for practitioner identifier system used in this IG.",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "http://ushosp.org/fhir/practitioner-npi",
+      "preferred": true
+    }
+  ],
+  "name": "PractitionerIdentifierNamingSystem",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2026-03-07",
+  "publisher": "FHIR Course"
+}

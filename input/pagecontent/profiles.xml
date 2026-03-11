@@ -1,0 +1,22 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <p>This page lists the Lean Core Profiles defined in this guide to exchange quality data.</p>
+  <p>Each Profile page includes a narrative description that lists all the Mandatory and Must Support data elements, profile-specific implementation guidance, and formal definitions. A "Quick Start" guide summarizes the supported search transactions for each profile. Although the guidance typically focuses on the profiled elements, it may also cover un-profiled elements to aid with implementation and certification.</p>
+  
+  <h3>Profiles</h3>
+  <p>All FHIR Course Resource Profiles</p>
+  <table class="grid">
+    <col style="width:20%"/>
+    <tbody>
+      <tr>
+        <td style="column-width:30%">
+          <a href="StructureDefinition-fhir-course-patient01.html" title="StructureDefinition/fhir-course-patient01">
+            <span title="StructureDefinition/fhir-course-patient01">FHIR Course Patient Profile 01</span>
+          </a>
+        </td>
+        <td>
+        The FHIR course Patient Profile 01 inherits from the FHIR Patient resource. refer to it for scope and usage definitions. This profile meets the requirements of the Patient resource instance creation assingment in chapter 2: Resource Concepts. It specifies which core elements, extensions, vocabularies, and value sets SHALL be present and constrains how the elements are used.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

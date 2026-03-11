@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="122456"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Practitioner 122456</b></p><a name="122456"> </a><a name="hc122456"> </a><p><b>identifier</b>: <a href="NamingSystem-PractitionerIdentifierNamingSystem.html" title="Namespace definition for practitioner identifier system used in this IG.">PractitionerIdentifierNamingSystem</a>/9087612</p><p><b>name</b>: Big Undertaker </p></div>
+  </text>
+  <identifier>
+    <system value="http://ushosp.org/fhir/practitioner-npi"/>
+    <value value="9087612"/>
+  </identifier>
+  <name>
+    <family value="Undertaker"/>
+    <given value="Big"/>
+    <prefix value="Dr."/>
+  </name>
+</Practitioner>

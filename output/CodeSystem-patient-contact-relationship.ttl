@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://courses.ajoshi.org/fhir/CodeSystem/patient-contact-relationship> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "patient-contact-relationship"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem patient-contact-relationship</b></p><a name=\"patient-contact-relationship\"> </a><a name=\"hcpatient-contact-relationship\"> </a><p>This case-sensitive code system <code>http://ushosp.org/fhir/CodeSystem/patient-contact-relationship</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">MTH<a name=\"patient-contact-relationship-MTH\"> </a></td><td>Mother</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://ushosp.org/fhir/CodeSystem/patient-contact-relationship"^^xsd:anyURI ;
+     fhir:l <http://ushosp.org/fhir/CodeSystem/patient-contact-relationship>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "PatientContactRelationship"] ; # 
+  fhir:title [ fhir:v "Patient Contact Relationship Codes"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-10T18:59:27+03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Aditya Joshi (FHIR Trainer)"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Aditya Joshi (FHIR Trainer)" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/cgp" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Local codes used to describe patient contact relationships for course examples."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "Used by permission of FHIR course Author."] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "1"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "MTH" ] ;
+     fhir:display [ fhir:v "Mother" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

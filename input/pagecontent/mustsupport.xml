@@ -1,0 +1,12 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <h3>Must Support</h3>
+  <p>
+    The Profile elements consist of Mandatory, Must Support, and Additional Saudi national Requirements elements. The sections below define the Server and Client expectations for processing these elements and illustrate how they are displayed and documented.
+  </p>
+  <h3>Must Support Elements</h3>
+	<p>
+		a. Sender shall populate the must support elements if data is present at their end. 
+		b. Receiver shall consume the data if present in the FHIR resource instances. Shall not throw error if data is absent
+		until unless it is a mandatory field.
+	</p>
+</div>

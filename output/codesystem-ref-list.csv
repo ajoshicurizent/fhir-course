@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+urn:iso:std:iso:3166,0.1.0,active,,ISO3166Part1Alpha3,ISO 3166-1 Alpha-3 Country Codes,"This CodeSystem resource represents the ISO 3166-1 standard, 2020 edition for country codes, specifically the three-character (alpha-3) codes. It is intended to be a complete and canonical representation of the standard as a FHIR resource.","ValueSet/patient-nationality-valueset"

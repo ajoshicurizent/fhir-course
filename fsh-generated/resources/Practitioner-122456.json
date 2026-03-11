@@ -1,0 +1,21 @@
+{
+  "resourceType": "Practitioner",
+  "id": "122456",
+  "identifier": [
+    {
+      "system": "http://ushosp.org/fhir/practitioner-npi",
+      "value": "9087612"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Big"
+      ],
+      "prefix": [
+        "Dr."
+      ],
+      "family": "Undertaker"
+    }
+  ]
+}

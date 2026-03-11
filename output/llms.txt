@@ -1,0 +1,58 @@
+# hl7.fhir.uv.fhir-course#0.1.0: null
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+* [Background](background.md)
+* [Capabilitystatements](capabilitystatements.md)
+* [Changes](changes.md)
+* [Downloads](downloads.md)
+* [Examples](examples.md)
+* [Extensions](extensions.md)
+* [Generalrequirements](generalrequirements.md)
+* [Mustsupport](mustsupport.md)
+* [Profiles](profiles.md)
+* [Searchparameters](searchparameters.md)
+* [Security](security.md)
+* [Terminology](terminology.md)
+
+## Resources
+
+### CodeSystems
+
+* [Patient Contact Relationship Codes](CodeSystem-patient-contact-relationship.md)
+* [ISO 3166-1 Alpha-3 Country Codes](CodeSystem-patient-nationality-codesystem.md)
+
+### ValueSets
+
+* [Nationality (ISO 3166-1 Alpha-3 Subset)](ValueSet-patient-nationality-valueset.md)
+
+### Resource Profiles
+
+* [MyPatient](StructureDefinition-MyPatient.md)
+* [FHIR course Patient Profile 01](StructureDefinition-fhir-course-patient01.md)
+
+### Extensions
+
+* [FHIR Course Extension Patient Nationality](StructureDefinition-patient-nationality-extension.md)
+
+### CapabilityStatements
+
+* [FHIR Course CapabilityStatement](CapabilityStatement-FHIRCourseCapabilityStatement.md)
+
+### ImplementationGuides
+
+* [FHIRCourse](index.md)
+
+### NamingSystems
+
+* [PatientMrnNamingSystem](NamingSystem-PatientMrnNamingSystem.md)
+* [PractitionerIdentifierNamingSystem](NamingSystem-PractitionerIdentifierNamingSystem.md)
+
+### Examples
+
+* [PatientExample (Patient)](Patient-PatientExample.md)
+* [patient-example-001 (Patient)](Patient-patient-example-001.md)
+* [122456 (Practitioner)](Practitioner-122456.md)
+* [456789 (Practitioner)](Practitioner-456789.md)

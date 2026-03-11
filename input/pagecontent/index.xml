@@ -1,0 +1,33 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <!-- Note: Fragment includes commented out as they're not available in local template-->
+ <!-- {% include ip-statements.xhtml %}
+  {% include dependency-table-short.xhtml %}
+  {% include globals-table.xhtml %}
+  -->
+  <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+  <a name="intro"> </a>
+  <h3>Introduction</h3>
+	<p>
+     FHIR Course profiles and implementation guide for course assignments.
+  </p>
+	<a name="technical"> </a>
+	<h3>Technical Overview</h3>
+	<p>
+    FHIR course IG is a set of rules and best practices that help healthcare providers share patient information safely and efficiently across the Kingdom of Saudi Arabia. It uses the FHIR standard to align how data —such as patient records, medications, and lab results — is formatted and exchanged. These rules follow national requirements, especially the Saudi-Health-Data-Dictionary-v2 data sets, ensuring hospitals and clinics share the most critical health data.
+  </p>
+  <a name="walkthrough"> </a>
+  <p>
+    The main sections of this IG are:
+  </p>
+  <ul>
+    <li>
+      <a href="background.html">Background</a> - provides business context for the implementation guide and information that implementers should be familiar with before reading the remainder of the IG.  There could be multiple pages for this.
+    </li>
+    <li>
+      <a href="artifacts.html">FHIR Artifacts</a> - FHIR profiles, ValueSet, CodeSystem and extensions.
+    </li>
+    <li>
+      <a href="downloads.html">Downloads</a> - Allows downloading a copy of this implementation guide and other useful information
+    </li>
+  </ul>
+</div>

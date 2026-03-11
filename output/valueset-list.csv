@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+http://courses.ajoshi.org/fhir/ValueSet/patient-nationality-valueset,0.1.0,active,,PatientNationalityValueSet,Nationality (ISO 3166-1 Alpha-3 Subset),"ValueSet for the Countries represented using ISO 3166-1 alpha-3 codes.",,"Internal"

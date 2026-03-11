@@ -1,0 +1,59 @@
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="toc.html">Table of Contents</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="background.html" class="dropdown-toggle">Background<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="background.html">Reading this IG</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="generalrequirements.html" class="dropdown-toggle">Conformance<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="generalrequirements.html">General Requirements</a>
+      </li>
+      <li>
+        <a href="mustsupport.html">Must Support</a>
+      </li>
+	  <li>
+        <a href="security.html">Security</a>
+      </li>
+    </ul>
+  </li>
+  
+  <!-- FHIR Artifacts Section - US Core style -->
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="profiles.html" class="dropdown-toggle">FHIR Artifacts<b class="caret"></b></a>
+	<ul class="dropdown-menu">
+      <li><a href="profiles.html">Profiles</a></li>
+      <li><a href="extensions.html">Extensions</a></li>
+      <li><a href="searchparameters.html">Search Parameters and Operations</a></li>
+      <li><a href="terminology.html">Terminology</a></li>
+      <li><a href="capabilitystatements.html">Capability Statements</a></li>
+      <li><a href="examples.html">Examples</a></li>
+      <li class="divider"></li> 
+      <li><a href="artifacts.html">Artifact Index</a></li>
+    </ul> 
+  </li>
+  
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="downloads.html" class="dropdown-toggle">Support<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a target="_blank" href="{{site.data.fhir.path}}index.html">FHIR Spec <img src="external.png" style="text-align: baseline"/></a>
+      </li>
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+    </ul>
+  </li>
+</ul>      

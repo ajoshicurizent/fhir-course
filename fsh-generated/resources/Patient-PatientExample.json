@@ -1,0 +1,17 @@
+{
+  "resourceType": "Patient",
+  "id": "PatientExample",
+  "meta": {
+    "profile": [
+      "http://courses.ajoshi.org/fhir/StructureDefinition/MyPatient"
+    ]
+  },
+  "name": [
+    {
+      "given": [
+        "James"
+      ],
+      "family": "Pond"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[FHIRCourseCapabilityStatement]: CapabilityStatement-FHIRCourseCapabilityStatement.html
+[PatientNationalityExtension]: StructureDefinition-patient-nationality-extension.html
+[ResourceConceptAssignmentPatientProfile01]: StructureDefinition-fhir-course-patient01.html
+[ISO3166Part1Alpha3]: CodeSystem-patient-nationality-codesystem.html
+[patient-example-001]: Patient-patient-example-001.html
+[MyPatient]: StructureDefinition-MyPatient.html
+[PatientNationalityValueSet]: ValueSet-patient-nationality-valueset.html
+[PatientContactRelationship]: CodeSystem-patient-contact-relationship.html
+[PatientMrnNamingSystem]: NamingSystem-PatientMrnNamingSystem.html
+[PatientExample]: Patient-PatientExample.html
+[122456]: Practitioner-122456.html
+[456789]: Practitioner-456789.html
+[PractitionerIdentifierNamingSystem]: NamingSystem-PractitionerIdentifierNamingSystem.html

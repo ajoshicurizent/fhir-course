@@ -1,0 +1,123 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-example-001",
+  "meta": {
+    "profile": [
+      "http://courses.ajoshi.org/fhir/StructureDefinition/fhir-course-patient01"
+    ]
+  },
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "SAU",
+                "system": "urn:iso:std:iso:3166",
+                "display": "Saudi Arabia"
+              }
+            ]
+          }
+        }
+      ],
+      "url": "http://courses.ajoshi.org/fhir/StructureDefinition/patient-nationality-extension"
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://ushosp.org/fhir/pat-identifier/mrn",
+      "value": "1234567891"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Robert"
+      ],
+      "family": "Smith"
+    },
+    {
+      "given": [
+        "Aditya",
+        "Kumar"
+      ],
+      "prefix": [
+        "Mr."
+      ],
+      "family": "Joshi",
+      "use": "official"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "use": "mobile",
+      "value": "(+91) 9023123456"
+    }
+  ],
+  "address": [
+    {
+      "line": [
+        "Lane no. 15"
+      ],
+      "_line": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumberNumeric",
+              "valueString": "15"
+            }
+          ]
+        }
+      ],
+      "use": "home",
+      "city": "Bangalore",
+      "district": "Bangalore Urban district",
+      "state": "Karnataka",
+      "postalCode": "560034",
+      "country": "IND"
+    }
+  ],
+  "contact": [
+    {
+      "name": {
+        "given": [
+          "Jasmine"
+        ],
+        "family": "Cena"
+      },
+      "relationship": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+              "code": "N",
+              "display": "Next-of-Kin"
+            },
+            {
+              "code": "MTH",
+              "system": "http://ushosp.org/fhir/CodeSystem/patient-contact-relationship",
+              "display": "Mother"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generalPractitioner": [
+    {
+      "reference": "Practitioner/456789"
+    },
+    {
+      "identifier": {
+        "system": "http://ushosp.org/fhir/practitioner-npi",
+        "value": "9087612"
+      }
+    }
+  ],
+  "active": true,
+  "gender": "male",
+  "birthDate": "1990-05-15"
+}

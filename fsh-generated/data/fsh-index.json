@@ -1,0 +1,106 @@
+[
+  {
+    "outputFile": "CapabilityStatement-FHIRCourseCapabilityStatement.json",
+    "fshName": "FHIRCourseCapabilityStatement",
+    "fshType": "Instance",
+    "fshFile": "FHIRCourseCapabilityStatement.fsh",
+    "startLine": 2,
+    "endLine": 18
+  },
+  {
+    "outputFile": "CodeSystem-patient-contact-relationship.json",
+    "fshName": "PatientContactRelationship",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystem-patient-contact-relationship.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "CodeSystem-patient-nationality-codesystem.json",
+    "fshName": "ISO3166Part1Alpha3",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystem-patient-nationality.fsh",
+    "startLine": 3,
+    "endLine": 261
+  },
+  {
+    "outputFile": "NamingSystem-PatientMrnNamingSystem.json",
+    "fshName": "PatientMrnNamingSystem",
+    "fshType": "Instance",
+    "fshFile": "patient-mrn-identifier-system.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "NamingSystem-PractitionerIdentifierNamingSystem.json",
+    "fshName": "PractitionerIdentifierNamingSystem",
+    "fshType": "Instance",
+    "fshFile": "practitioner-npi-identifier-system.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Patient-PatientExample.json",
+    "fshName": "PatientExample",
+    "fshType": "Instance",
+    "fshFile": "patient.fsh",
+    "startLine": 9,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Patient-patient-example-001.json",
+    "fshName": "patient-example-001",
+    "fshType": "Instance",
+    "fshFile": "patient-resource-instance-example-001.fsh",
+    "startLine": 6,
+    "endLine": 55
+  },
+  {
+    "outputFile": "Practitioner-122456.json",
+    "fshName": "practitioner-example-01",
+    "fshType": "Instance",
+    "fshFile": "practitioner-example-01.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "Practitioner-456789.json",
+    "fshName": "practitioner-example-02",
+    "fshType": "Instance",
+    "fshFile": "practitioner-example-02.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "StructureDefinition-MyPatient.json",
+    "fshName": "MyPatient",
+    "fshType": "Profile",
+    "fshFile": "patient.fsh",
+    "startLine": 4,
+    "endLine": 7
+  },
+  {
+    "outputFile": "StructureDefinition-fhir-course-patient01.json",
+    "fshName": "ResourceConceptAssignmentPatientProfile01",
+    "fshType": "Profile",
+    "fshFile": "Chapter2-Assignment-PatientProfile-01.fsh",
+    "startLine": 10,
+    "endLine": 100
+  },
+  {
+    "outputFile": "StructureDefinition-patient-nationality-extension.json",
+    "fshName": "PatientNationalityExtension",
+    "fshType": "Extension",
+    "fshFile": "extension-patient-nationality.fsh",
+    "startLine": 3,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-patient-nationality-valueset.json",
+    "fshName": "PatientNationalityValueSet",
+    "fshType": "ValueSet",
+    "fshFile": "valueset-patient-nationality.fsh",
+    "startLine": 4,
+    "endLine": 10
+  }
+]
