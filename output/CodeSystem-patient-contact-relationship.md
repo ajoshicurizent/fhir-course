@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ushosp.org/fhir/CodeSystem/patient-contact-relationship | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:PatientContactRelationship |
+| Active as of 2026-03-22 | *Computable Name*:PatientContactRelationship |
 | **Copyright/Legal**: Used by permission of FHIR course Author. | |
 
  
@@ -33,7 +33,7 @@ Local codes used to describe patient contact relationships for course examples.
   "title" : "Patient Contact Relationship Codes",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-10T18:59:27+03:00",
+  "date" : "2026-03-22T11:14:06+05:30",
   "publisher" : "Aditya Joshi (FHIR Trainer)",
   "contact" : [
     {

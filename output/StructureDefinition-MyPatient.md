@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://courses.ajoshi.org/fhir/StructureDefinition/MyPatient | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:MyPatient |
+| Active as of 2026-03-22 | *Computable Name*:MyPatient |
 
  
 An example profile of the Patient resource. 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-MyPatient.csv), [Exc
   "version" : "0.1.0",
   "name" : "MyPatient",
   "status" : "active",
-  "date" : "2026-03-10T18:59:27+03:00",
+  "date" : "2026-03-22T11:14:06+05:30",
   "publisher" : "Aditya Joshi (FHIR Trainer)",
   "contact" : [
     {

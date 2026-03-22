@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://courses.ajoshi.org/fhir/StructureDefinition/patient-nationality-extension | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:PatientNationalityExtension |
+| Active as of 2026-03-22 | *Computable Name*:PatientNationalityExtension |
 | **Copyright/Legal**: Used by permission of FHIR course Author. | |
 
 The nationality of the patient. This element is to report patient nationality as per the ISO 3166-3 Standard , 2nd edition , 3-character alphabetic codes.
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-patient-nationality-
   "title" : "FHIR Course Extension Patient Nationality",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-10T18:59:27+03:00",
+  "date" : "2026-03-22T11:14:06+05:30",
   "publisher" : "Aditya Joshi (FHIR Trainer)",
   "contact" : [
     {

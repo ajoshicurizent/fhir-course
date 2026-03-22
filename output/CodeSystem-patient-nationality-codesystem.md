@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:urn:iso:std:iso:3166 | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:ISO3166Part1Alpha3 |
+| Active as of 2026-03-22 | *Computable Name*:ISO3166Part1Alpha3 |
 | *Other Identifiers:*urn:ietf:rfc:3986#Uniform Resource Identifier (URI)#urn:iso:std:iso:3166 | |
 | **Copyright/Legal**: Used by permission of FHIR course Author. | |
 
@@ -43,7 +43,7 @@ This CodeSystem resource represents the ISO 3166-1 standard, 2020 edition for co
   "title" : "ISO 3166-1 Alpha-3 Country Codes",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-10T18:59:27+03:00",
+  "date" : "2026-03-22T11:14:06+05:30",
   "publisher" : "Aditya Joshi (FHIR Trainer)",
   "contact" : [
     {

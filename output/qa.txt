@@ -1,10 +1,10 @@
 FHIRCourse : Validation Results
 =========================================
 
-err = 0, warn = 1, info = 2
-IG Publisher Version: 2.0.29 Out of date - current version is 2.1.2
-Generated Tue Mar 10 19:03:06 AST 2026. FHIR version 4.0.1 for hl7.fhir.uv.fhir-course#0.1.0 (canonical = http://courses.ajoshi.org/fhir)
- Build Errors : 0 / 1 / 0
+err = 0, warn = 0, info = 2
+IG Publisher Version: 2.0.29 Out of date - current version is 2.2.1
+Generated Sun Mar 22 11:18:59 IST 2026. FHIR version 4.0.1 for hl7.fhir.uv.fhir-course#0.1.0 (canonical = http://courses.ajoshi.org/fhir)
+ Build Errors : 0 / 0 / 0
  C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\CapabilityStatement-FHIRCourseCapabilityStatement : 0 / 0 / 1
  C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\CodeSystem-patient-contact-relationship : 0 / 0 / 1
  C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\CodeSystem-patient-nationality-codesystem : 0 / 0 / 1
@@ -21,7 +21,6 @@ Generated Tue Mar 10 19:03:06 AST 2026. FHIR version 4.0.1 for hl7.fhir.uv.fhir-
  C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\ValueSet-patient-nationality-valueset : 0 / 0 / 1
 </table>
 == n/a ==
-WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 == fsh-generated\resources\CapabilityStatement-FHIRCourseCapabilityStatement.json ==
 == fsh-generated\resources\CodeSystem-patient-contact-relationship.json ==
 == fsh-generated\resources\CodeSystem-patient-nationality-codesystem.json ==

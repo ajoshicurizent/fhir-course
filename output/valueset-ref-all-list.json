@@ -52,8 +52,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-MyPatient.html" : "MyPatient",
-      "StructureDefinition-fhir-course-patient01.html" : "FHIR course Patient Profile 01"
+      "StructureDefinition-fhir-course-patient01.html" : "FHIR course Patient Profile 01",
+      "StructureDefinition-MyPatient.html" : "MyPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contact-point-system",
@@ -123,8 +123,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-MyPatient.html" : "MyPatient",
-      "StructureDefinition-fhir-course-patient01.html" : "FHIR course Patient Profile 01"
+      "StructureDefinition-fhir-course-patient01.html" : "FHIR course Patient Profile 01",
+      "StructureDefinition-MyPatient.html" : "MyPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -138,8 +138,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.423"],
       "uses" : {
       },
-      "StructureDefinition-MyPatient.html" : "MyPatient",
-      "StructureDefinition-fhir-course-patient01.html" : "FHIR course Patient Profile 01"
+      "StructureDefinition-fhir-course-patient01.html" : "FHIR course Patient Profile 01",
+      "StructureDefinition-MyPatient.html" : "MyPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/marital-status",
@@ -156,8 +156,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.29"],
       "uses" : {
       },
-      "StructureDefinition-MyPatient.html" : "MyPatient",
-      "StructureDefinition-fhir-course-patient01.html" : "FHIR course Patient Profile 01"
+      "StructureDefinition-fhir-course-patient01.html" : "FHIR course Patient Profile 01",
+      "StructureDefinition-MyPatient.html" : "MyPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/name-use",
@@ -185,8 +185,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1130"],
       "uses" : {
       },
-      "StructureDefinition-MyPatient.html" : "MyPatient",
-      "StructureDefinition-fhir-course-patient01.html" : "FHIR course Patient Profile 01"
+      "StructureDefinition-fhir-course-patient01.html" : "FHIR course Patient Profile 01",
+      "StructureDefinition-MyPatient.html" : "MyPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/resource-types",

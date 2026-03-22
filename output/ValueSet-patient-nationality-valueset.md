@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://courses.ajoshi.org/fhir/ValueSet/patient-nationality-valueset | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:PatientNationalityValueSet |
+| Active as of 2026-03-22 | *Computable Name*:PatientNationalityValueSet |
 | **Copyright/Legal**: Used by permission of FHIR course Author. | |
 
  
@@ -55,7 +55,7 @@ ValueSet for the Countries represented using ISO 3166-1 alpha-3 codes.
   "title" : "Nationality (ISO 3166-1 Alpha-3 Subset)",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-10T18:59:27+03:00",
+  "date" : "2026-03-22T11:14:06+05:30",
   "publisher" : "Aditya Joshi (FHIR Trainer)",
   "contact" : [
     {

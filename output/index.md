@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://courses.ajoshi.org/fhir/ImplementationGuide/hl7.fhir.uv.fhir-course | *Version*:0.1.0 |
-| Active as of 2026-03-10 | *Computable Name*:FHIRCourse |
+| Active as of 2026-03-22 | *Computable Name*:FHIRCourse |
 
 *There are no Global profiles defined*
 -->
@@ -39,7 +39,7 @@
   "version" : "0.1.0",
   "name" : "FHIRCourse",
   "status" : "active",
-  "date" : "2026-03-10T18:59:27+03:00",
+  "date" : "2026-03-22T11:14:06+05:30",
   "publisher" : "Aditya Joshi (FHIR Trainer)",
   "contact" : [
     {

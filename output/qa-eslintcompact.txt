@@ -1,9 +1,8 @@
 FHIRCourse
 =========================================
 
-Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\StructureDefinition-MyPatient.json: line 1, col 17168, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated (BUSINESSRULE)
 C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\StructureDefinition-fhir-course-patient01.json: line 1, col 171620, Info - The extension http://hl7.org/fhir/StructureDefinition/regex|5.2.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex' (BUSINESSRULE)
 
-err = 0, warn = 1, info = 2
+err = 0, warn = 0, info = 2
 IG Publisher Version: 2.0.29
