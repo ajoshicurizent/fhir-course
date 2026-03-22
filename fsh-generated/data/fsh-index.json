@@ -84,8 +84,8 @@
     "fshName": "ResourceConceptAssignmentPatientProfile01",
     "fshType": "Profile",
     "fshFile": "Chapter2-Assignment-PatientProfile-01.fsh",
-    "startLine": 10,
-    "endLine": 100
+    "startLine": 11,
+    "endLine": 101
   },
   {
     "outputFile": "StructureDefinition-patient-nationality-extension.json",

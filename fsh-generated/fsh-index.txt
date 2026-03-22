@@ -9,6 +9,6 @@ Patient-patient-example-001.json                        patient-example-001     
 Practitioner-122456.json                                practitioner-example-01                    Instance    practitioner-example-01.fsh                  1 - 11
 Practitioner-456789.json                                practitioner-example-02                    Instance    practitioner-example-02.fsh                  1 - 11
 StructureDefinition-MyPatient.json                      MyPatient                                  Profile     patient.fsh                                  4 - 7
-StructureDefinition-fhir-course-patient01.json          ResourceConceptAssignmentPatientProfile01  Profile     Chapter2-Assignment-PatientProfile-01.fsh    10 - 100
+StructureDefinition-fhir-course-patient01.json          ResourceConceptAssignmentPatientProfile01  Profile     Chapter2-Assignment-PatientProfile-01.fsh    11 - 101
 StructureDefinition-patient-nationality-extension.json  PatientNationalityExtension                Extension   extension-patient-nationality.fsh            3 - 16
 ValueSet-patient-nationality-valueset.json              PatientNationalityValueSet                 ValueSet    valueset-patient-nationality.fsh             4 - 10

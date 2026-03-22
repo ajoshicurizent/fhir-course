@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-fhir-course-patient0
   "title" : "FHIR course Patient Profile 01",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-22T11:14:06+05:30",
+  "date" : "2026-03-22T13:21:26+05:30",
   "publisher" : "Aditya Joshi (FHIR Trainer)",
   "contact" : [
     {

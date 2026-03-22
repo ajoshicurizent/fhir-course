@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "0e5f3966-db0b-4a07-834f-7a31f65d4651",
+  "id" : "f6e44978-c9ca-49d5-bb98-d1fb39321c8d",
   "meta" : {
-    "lastUpdated" : "2026-03-22T11:14:06.579+05:30"
+    "lastUpdated" : "2026-03-22T13:21:26.023+05:30"
   },
   "type" : "collection",
   "entry" : [{
@@ -22,7 +22,7 @@
       "title" : "Nationality (ISO 3166-1 Alpha-3 Subset)",
       "status" : "active",
       "experimental" : false,
-      "date" : "2026-03-22T11:14:06+05:30",
+      "date" : "2026-03-22T13:21:26+05:30",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -31,8 +31,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ebd12224-22ea-4498-b676-b1ef695179b9",
-        "timestamp" : "2026-03-22T11:16:49+05:30",
+        "identifier" : "urn:uuid:e7645a3b-56bb-40b2-89a0-5a912d26671f",
+        "timestamp" : "2026-03-22T13:23:27+05:30",
         "total" : 249,
         "offset" : 0,
         "parameter" : [{
