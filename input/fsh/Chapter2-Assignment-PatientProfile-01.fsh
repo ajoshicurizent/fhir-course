@@ -6,6 +6,7 @@
 // of this extension, then it will be same like houseNumberNumeric or PatientNationalityExtension extensions.
 // I want participants to think and create their own extension url and decide on data type. 
 // I have to manually validate race extension in the participants submission. 
+// all done. 
 Alias: $houseNumberNumeric = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumberNumeric|4.0.1
 Profile: ResourceConceptAssignmentPatientProfile01
 Parent: Patient
