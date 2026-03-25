@@ -227,6 +227,10 @@
       {
         "code": "special-url",
         "value": "http://ushosp.org/fhir/CodeSystem/patient-contact-relationship"
+      },
+      {
+        "code": "no-narrative",
+        "value": "Patient/*"
       }
     ]
   }

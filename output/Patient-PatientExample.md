@@ -6,12 +6,6 @@
 
 ## Example Patient: PatientExample
 
-Profile: [MyPatient](StructureDefinition-MyPatient.md)
-
-James Pond (no stated gender), DoB Unknown
-
--------
-
 
 
 ## Resource Content

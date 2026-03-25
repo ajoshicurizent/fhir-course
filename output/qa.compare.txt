@@ -1,7 +1,7 @@
 FHIRCourse : Validation Results
 =========================================
 
-err = 0, warn = 0, info = 2
+err = 0, warn = 2, info = 2
 $--
 Generated $--. FHIR version $-- for hl7.fhir.uv.fhir-course#$-- (canonical = http://courses.ajoshi.org/fhir)
  Build Errors : 0 / 0 / 0
@@ -11,8 +11,8 @@ Generated $--. FHIR version $-- for hl7.fhir.uv.fhir-course#$-- (canonical = htt
  C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\ImplementationGuide-hl7.fhir.uv.fhir-course : 0 / 0 / 1
  C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\NamingSystem-PatientMrnNamingSystem : 0 / 0 / 1
  C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\NamingSystem-PractitionerIdentifierNamingSystem : 0 / 0 / 1
- C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\Patient-PatientExample : 0 / 0 / 1
- C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\Patient-patient-example-001 : 0 / 0 / 1
+ C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\Patient-PatientExample : 0 / 1 / 1
+ C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\Patient-patient-example-001 : 0 / 1 / 1
  C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\Practitioner-122456 : 0 / 0 / 1
  C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\Practitioner-456789 : 0 / 0 / 1
  C:\MyWorkspace\_respos\fhir-course\fsh-generated\resources\StructureDefinition-MyPatient : 0 / 0 / 2
@@ -28,7 +28,9 @@ Generated $--. FHIR version $-- for hl7.fhir.uv.fhir-course#$-- (canonical = htt
 == fsh-generated\resources\NamingSystem-PatientMrnNamingSystem.json ==
 == fsh-generated\resources\NamingSystem-PractitionerIdentifierNamingSystem.json ==
 == fsh-generated\resources\Patient-PatientExample.json ==
+WARNING: Patient/PatientExample: Patient: Constraint failed: dom-6: 'A resource should have narrative for robust management (text.`div`.exists())' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated\resources\Patient-patient-example-001.json ==
+WARNING: Patient/patient-example-001: Patient: Constraint failed: dom-6: 'A resource should have narrative for robust management (text.`div`.exists())' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated\resources\Practitioner-122456.json ==
 == fsh-generated\resources\Practitioner-456789.json ==
 == fsh-generated\resources\StructureDefinition-MyPatient.json ==

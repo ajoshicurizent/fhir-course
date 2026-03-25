@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://courses.ajoshi.org/fhir/StructureDefinition/fhir-course-patient01 | *Version*:0.1.0 |
-| Active as of 2026-03-22 | *Computable Name*:ResourceConceptAssignmentPatientProfile01 |
+| Active as of 2026-03-25 | *Computable Name*:ResourceConceptAssignmentPatientProfile01 |
 | **Copyright/Legal**: Used by permission of FHIR course Author. | |
 
  
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-fhir-course-patient0
   "title" : "FHIR course Patient Profile 01",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-22T13:21:26+05:30",
+  "date" : "2026-03-25T09:53:08+03:00",
   "publisher" : "Aditya Joshi (FHIR Trainer)",
   "contact" : [
     {
@@ -177,7 +177,7 @@ Other representations of profile: [CSV](StructureDefinition-fhir-course-patient0
       {
         "id" : "Patient.name.given",
         "path" : "Patient.name.given",
-        "min" : 1
+        "min" : 2
       },
       {
         "id" : "Patient.telecom",
@@ -248,8 +248,7 @@ Other representations of profile: [CSV](StructureDefinition-fhir-course-patient0
       {
         "id" : "Patient.address.line",
         "path" : "Patient.address.line",
-        "min" : 1,
-        "max" : "1"
+        "min" : 1
       },
       {
         "id" : "Patient.address.line.extension",
@@ -411,8 +410,7 @@ Other representations of profile: [CSV](StructureDefinition-fhir-course-patient0
       {
         "id" : "Patient.generalPractitioner:practitionerByResourceId.reference",
         "path" : "Patient.generalPractitioner.reference",
-        "min" : 1,
-        "patternString" : "Practitioner/456789"
+        "min" : 1
       },
       {
         "id" : "Patient.generalPractitioner:practitionerByResourceId.identifier",

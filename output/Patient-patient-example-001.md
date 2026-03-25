@@ -6,27 +6,6 @@
 
 ## Example Patient: John Cena
 
-Profile: [FHIR course Patient Profile 01](StructureDefinition-fhir-course-patient01.md)
-
-Aditya Kumar Joshi (official) Male, DoB: 1990-05-15 ( http://ushosp.org/fhir/pat-identifier/mrn#PatientMrnNamingSystem#1234567891)
-
--------
-
-| | |
-| :--- | :--- |
-| Active: | true |
-| Alt. Name: | Robert Smith |
-| Contact Detail | * ph: (+91) 9023123456(Mobile)
-* Lane no. 15 Bangalore Karnataka 560034 IND (home)
- |
-| Next-of-Kin: | * Jasmine Cena 
- |
-| Links: | * General Practitioner: [Practitioner Cardio Specialist](Practitioner-456789.md)
-* General Practitioner: Identifier: [PractitionerIdentifierNamingSystem](NamingSystem-PractitionerIdentifierNamingSystem.md)/9087612
- |
-| FHIR Course Extension Patient Nationality: | * code: Saudi Arabia
- |
-
 
 
 ## Resource Content
@@ -49,10 +28,16 @@ Aditya Kumar Joshi (official) Male, DoB: 1990-05-15 ( http://ushosp.org/fhir/pat
             "coding" : [
               {
                 "system" : "urn:iso:std:iso:3166",
-                "code" : "SAU",
-                "display" : "Saudi Arabia"
+                "code" : "IND",
+                "display" : "India"
               }
             ]
+          }
+        },
+        {
+          "url" : "period",
+          "valuePeriod" : {
+            "start" : "2000-01-01"
           }
         }
       ],
@@ -67,10 +52,6 @@ Aditya Kumar Joshi (official) Male, DoB: 1990-05-15 ( http://ushosp.org/fhir/pat
   ],
   "active" : true,
   "name" : [
-    {
-      "family" : "Smith",
-      "given" : ["Robert"]
-    },
     {
       "use" : "official",
       "family" : "Joshi",

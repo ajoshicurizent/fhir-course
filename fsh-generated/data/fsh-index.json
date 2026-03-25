@@ -53,7 +53,7 @@
     "fshType": "Instance",
     "fshFile": "patient-resource-instance-example-001.fsh",
     "startLine": 6,
-    "endLine": 55
+    "endLine": 57
   },
   {
     "outputFile": "Practitioner-122456.json",
@@ -85,7 +85,7 @@
     "fshType": "Profile",
     "fshFile": "Chapter2-Assignment-PatientProfile-01.fsh",
     "startLine": 11,
-    "endLine": 101
+    "endLine": 104
   },
   {
     "outputFile": "StructureDefinition-patient-nationality-extension.json",
@@ -93,7 +93,7 @@
     "fshType": "Extension",
     "fshFile": "extension-patient-nationality.fsh",
     "startLine": 3,
-    "endLine": 16
+    "endLine": 18
   },
   {
     "outputFile": "ValueSet-patient-nationality-valueset.json",

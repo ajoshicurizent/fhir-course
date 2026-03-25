@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "FHIRCourse",
   "status" : "active",
-  "date" : "2026-03-22T13:21:26+05:30",
+  "date" : "2026-03-25T09:53:08+03:00",
   "publisher" : "Aditya Joshi (FHIR Trainer)",
   "contact" : [{
     "name" : "Aditya Joshi (FHIR Trainer)",
@@ -90,6 +90,17 @@
       {
         "url" : "value",
         "valueString" : "http://ushosp.org/fhir/CodeSystem/patient-contact-relationship"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "no-narrative"
+      },
+      {
+        "url" : "value",
+        "valueString" : "Patient/*"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -391,6 +402,17 @@
       {
         "url" : "value",
         "valueString" : "http://ushosp.org/fhir/CodeSystem/patient-contact-relationship"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "no-narrative"
+      },
+      {
+        "url" : "value",
+        "valueString" : "Patient/*"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

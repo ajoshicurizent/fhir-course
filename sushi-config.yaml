@@ -69,6 +69,9 @@ parameters:
   special-url:
     - urn:iso:std:iso:3166
     - http://ushosp.org/fhir/CodeSystem/patient-contact-relationship
+  # IG Publisher: skip generated Narrative (Resource.text) for Patient examples — http://hl7.org/fhir/tools/CodeSystem/ig-parameters#no-narrative
+  no-narrative:
+    - Patient/*
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #

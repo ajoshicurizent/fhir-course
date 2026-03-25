@@ -8,9 +8,11 @@ Context: Patient
 * insert CommonMetadataRuleSet
 * extension contains 
            code 1..1 and 
-           period 0..1 
+           period 1..1 
 * extension[code] ^short = "country code to represent the Nationality"
 * extension[code].value[x] only CodeableConcept
 * extension[code].value[x] from PatientNationalityValueSet (required)
 * extension[period] ^short = "time period when the Nationality is active. If no valuePeriod.end then the Nationality shall be considered currently active"
 * extension[period].value[x] only Period
+* extension[period].valuePeriod.start 1..1
+* extension[period].valuePeriod.end 0..0

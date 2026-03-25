@@ -14,12 +14,18 @@
           "valueCodeableConcept": {
             "coding": [
               {
-                "code": "SAU",
+                "code": "IND",
                 "system": "urn:iso:std:iso:3166",
-                "display": "Saudi Arabia"
+                "display": "India"
               }
             ]
           }
+        },
+        {
+          "valuePeriod": {
+            "start": "2000-01-01"
+          },
+          "url": "period"
         }
       ],
       "url": "http://courses.ajoshi.org/fhir/StructureDefinition/patient-nationality-extension"
@@ -32,12 +38,6 @@
     }
   ],
   "name": [
-    {
-      "given": [
-        "Robert"
-      ],
-      "family": "Smith"
-    },
     {
       "given": [
         "Aditya",

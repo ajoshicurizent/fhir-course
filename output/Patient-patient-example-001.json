@@ -4,19 +4,21 @@
   "meta" : {
     "profile" : ["http://courses.ajoshi.org/fhir/StructureDefinition/fhir-course-patient01"]
   },
-  "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-example-001</b></p><a name=\"patient-example-001\"> </a><a name=\"hcpatient-example-001\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-fhir-course-patient01.html\">FHIR course Patient Profile 01</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Aditya Kumar Joshi (official) Male, DoB: 1990-05-15 ( http://ushosp.org/fhir/pat-identifier/mrn#PatientMrnNamingSystem#1234567891)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Alternate names (see the one above)\">Alt. Name:</td><td colspan=\"3\">Robert Smith </td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li>ph: (+91) 9023123456(Mobile)</li><li>Lane no. 15 Bangalore Karnataka 560034 IND (home)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Nominated Contact: Next-of-Kin\">Next-of-Kin:</td><td colspan=\"3\"><ul><li>Jasmine Cena </li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>General Practitioner: <a href=\"Practitioner-456789.html\">Practitioner Cardio Specialist </a></li><li>General Practitioner: Identifier: <a href=\"NamingSystem-PractitionerIdentifierNamingSystem.html\" title=\"Namespace definition for practitioner identifier system used in this IG.\">PractitionerIdentifierNamingSystem</a>/9087612</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The nationality of the patient. This element is to report patient nationality as per the ISO 3166-3 Standard , 2nd edition , 3-character alphabetic codes.\">FHIR Course Extension Patient Nationality:</td><td colspan=\"3\"><ul><li>code: <span title=\"Codes:{urn:iso:std:iso:3166 SAU}\">Saudi Arabia</span></li></ul></td></tr></table></div>"
-  },
   "extension" : [{
     "extension" : [{
       "url" : "code",
       "valueCodeableConcept" : {
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
-          "code" : "SAU",
-          "display" : "Saudi Arabia"
+          "code" : "IND",
+          "display" : "India"
         }]
+      }
+    },
+    {
+      "url" : "period",
+      "valuePeriod" : {
+        "start" : "2000-01-01"
       }
     }],
     "url" : "http://courses.ajoshi.org/fhir/StructureDefinition/patient-nationality-extension"
@@ -27,10 +29,6 @@
   }],
   "active" : true,
   "name" : [{
-    "family" : "Smith",
-    "given" : ["Robert"]
-  },
-  {
     "use" : "official",
     "family" : "Joshi",
     "given" : ["Aditya",

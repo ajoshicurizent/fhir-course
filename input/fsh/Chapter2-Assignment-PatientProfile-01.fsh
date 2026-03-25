@@ -22,7 +22,7 @@ Description: "The patient profile to validate resource instance participants nee
 * identifier.value 1..1
 * identifier.system = "http://ushosp.org/fhir/pat-identifier/mrn"
 * name 1..*
-* name.given 1..*
+* name.given 2..*
 * name.family 1..1
 * gender 1..1
 * birthDate 1..1
@@ -43,13 +43,13 @@ Description: "The patient profile to validate resource instance participants nee
 * address 1..1
 * address.use 1..1
 * address.use = #home
-* address.line 1..1
+* address.line 1..*
 * address.city 1..1
 * address.postalCode 1..1
 * address.country 1..1
 * address.line.extension contains $houseNumberNumeric named houseNumberNumeric 1..*
 //Patient.contact - name and relationship. 
-//relationship with an example of 
+//relationship with an example 
 * contact 1..1
 * contact.name 1..1
 * contact.name.family 1..1
@@ -69,6 +69,9 @@ Description: "The patient profile to validate resource instance participants nee
 * contact.relationship.coding[nextOfKin].code 1..1
 * contact.relationship.coding[nextOfKin].code = #N
 
+//As code system value is not fixed, so any value used in the reosurce instance will be give a warning. 
+//To avoid warning by the IG publisher, I have created a codesysem with code MTH
+//so the IG validator while publishing found code MTH in one of the code systems which is part of this IG
 * contact.relationship.coding[customMth].system 1..1
 * contact.relationship.coding[customMth].code 1..1
 * contact.relationship.coding[customMth].code = #MTH
@@ -88,8 +91,8 @@ Description: "The patient profile to validate resource instance participants nee
     practitionerByIdentifier 1..1
 
 * generalPractitioner[practitionerByResourceId] only Reference(Practitioner)
+// Do not fix reference: a fixed literal only matches that string; FHIR allows relative (Practitioner/id) or absolute URLs.
 * generalPractitioner[practitionerByResourceId].reference 1..1
-* generalPractitioner[practitionerByResourceId].reference = "Practitioner/456789"
 * generalPractitioner[practitionerByResourceId].identifier 0..0
 
 * generalPractitioner[practitionerByIdentifier] only Reference(Practitioner)

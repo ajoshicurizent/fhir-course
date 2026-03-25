@@ -9,7 +9,9 @@ Usage: #example
 Title: "John Cena"
 Description: "sample Patient resource instance to test the FHIR Course Chapter 2: Writing Patient resource instance against the  Patient profile."
 //we can provide extension profile id or name or url and same is true for CodeSystem, below example mentions extension id and CodeSystem name
-* extension[PatientNationalityExtension].extension[code].valueCodeableConcept = ISO3166Part1Alpha3#SAU "Saudi Arabia"
+* extension[PatientNationalityExtension].extension[code].valueCodeableConcept = ISO3166Part1Alpha3#IND "India"
+* extension[PatientNationalityExtension].extension[period].valuePeriod.start = "2000-01-01"
+
 
 * active = true
 * gender = #male 
@@ -17,7 +19,7 @@ Description: "sample Patient resource instance to test the FHIR Course Chapter 2
 * identifier.system = "http://ushosp.org/fhir/pat-identifier/mrn"
 * identifier.value = "1234567891"
 
-* insert Name(Robert, Smith)
+// * insert Name(Robert, Smith)
 //name showing that given repetitions can handle Middle name (Kumar) and it is official name.
 * name[+].family = "Joshi"
 * name[=].given[+] = "Aditya"
